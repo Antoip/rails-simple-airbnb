@@ -1,0 +1,12 @@
+<div class="index-container">
+  <div class="index-title">
+    <h1>Flats</h1>
+  </div>
+  <div class="index-grid">
+    <% @flats.each do |flat| %>
+      <div class="flat-card">
+        <%= flat.name %>
+      </div>
+    <% end %>
+  </div>
+</div>
